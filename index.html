@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Вывод средств</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="header__wrapper">
+				<div class="header__left">
+					<div class="hamburger">
+						<span>&nbsp;</span>
+						<span>&nbsp;</span>
+						<span>&nbsp;</span>
+					</div>
+					<a href="#" class="logo">
+						<img src="img/logo.svg" alt="logo">
+					</a>
+				</div>
+				<div class="header__right">
+					<button class="bell__btn">&nbsp;</button>
+					<span class="balance">1000 ₽</span>
+					<button class="plus__btn">&nbsp;</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="adaptive__menu">
+		<ul class="adaptive__menu__top">
+			<li><a href="#">Арена</a></li>
+			<li><a href="#">Активные матчи</a></li>
+			<li><a href="#">Турниры<span class="menu__subname">Скоро</span></a></li>
+		</ul>
+		<ul class="adaptive__menu__bottom">
+			<li><a href="#">Мой профиль</a></li>
+			<li><a href="#">Пополнить баланс</a></li>
+			<li><a href="#">Вывод средств</a></li>
+			<li><a href="#">Настройки</a></li>
+			<li><a href="#">Поддержка</a></li>
+			<li><a href="#">Выход</a></li>
+		</ul>
+	</div>
+	<div class="moneys content-page">
+		<div class="moneys__title bg__title">
+			<h2>Средства</h2>
+		</div>
+		<div class="container">
+			<div class="tabs">
+				<ul class="tabs__caption">
+					<li class="active">Пополнить</li>
+					<li>Вывод</li>
+				</ul>
+				<div class="tabs__content active">
+					<div class="enter__amount">
+						<span>Введите сумму</span>
+						<div class="amount__input__wrapper">
+							<input type="number" name="">
+						</div>	
+					</div>
+					<div class="tabs__balance">
+						<p>Баланс <span>₽ 0</span></p>
+					</div>
+					<div class="tabs__btn">
+						<button>Пополнить</button>
+					</div>
+				</div>
+				<div class="tabs__content">
+					<div class="enter__amount">
+						<span>Введите сумму</span>
+						<div class="amount__input__wrapper">
+							<input type="number" name="">
+						</div>	
+					</div>
+					<div class="tabs__balance">
+						<p>Баланс <span>₽ 0</span></p>
+					</div>
+					<div class="deposit__method__title">
+						<h2>Способ ввода средств</h2>
+					</div>
+					<div class="deposit__method__descr">
+						<p>У каждой платежной системы своя минимальная
+						сумма вывода и комиссия </p>
+					</div>
+					<div class="cards__tabs">
+						<ul class="cards__list">
+							<li class="active">
+								<img src="img/wallet.svg" alt="wallet">
+							</li>
+							<li>
+								<img src="img/visa.svg" alt="visa">
+							</li>
+							<li>
+								<img src="img/yandex-cash.svg" alt="yandex-money">
+							</li>
+							<li>
+								<img src="img/qiwi.svg">
+							</li>
+						</ul>
+						<div class="container">
+							<div class="card__content active">
+								<span>Укажите номер счета</span>
+								<input type="text" name="" class="fk-wallet" placeholder="F _________">
+							</div>
+							<div class="card__content">
+								<span>Укажите номер счета</span>
+								<input type="text" name="" class="visa-card" placeholder="**** **** **** 3322">
+							</div>
+							<div class="card__content">
+								<span>Укажите номер счета</span>
+								<input type="number" name="">
+							</div>
+							<div class="card__content">
+								<span>Укажите номер счета</span>
+								<input type="text" name="" class="qiwi-card" placeholder="+7 (___) ___-__-__">
+							</div>
+						</div>	
+					</div>
+					<div class="tabs__btn">
+						<button>Вывести</button>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>	
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>		
+	<script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

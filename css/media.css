@@ -1,0 +1,31 @@
+@media screen and (min-width: 350px) {
+	.content-page {
+		background: url(../img/cross.svg) no-repeat left top 66px,
+		url(../img/circle.svg) no-repeat left 31px top 50px,
+		url(../img/triangle-left.svg) no-repeat left 60px top -15px,
+		url(../img/full-cross.svg) no-repeat left 96px top 40px,
+		url(../img/rhombus-top.svg) no-repeat left 127px top -17px,
+		url(../img/circle.svg) no-repeat left 163px top 33px,
+		url(../img/triangle-right.svg) no-repeat left 200px top 0px,
+		url(../img/cross-right.svg) no-repeat right 76px top 21px,
+		url(../img/circle.svg) no-repeat right 42px top -4px,
+		url(../img/triangle-right.svg) no-repeat right 28px top 27px,
+		url(../img/rhombus-right.svg) no-repeat right -1px top 60px;
+	}
+}
+@media screen and (min-width: 374px) {
+	.content-page {
+		background: url(../img/cross.svg) no-repeat left top 66px,
+		url(../img/circle.svg) no-repeat left 31px top 50px,
+		url(../img/triangle-left.svg) no-repeat left 60px top -15px,
+		url(../img/full-cross.svg) no-repeat left 96px top 40px,
+		url(../img/rhombus-top.svg) no-repeat left 127px top -17px,
+		url(../img/circle.svg) no-repeat left 163px top 33px,
+		url(../img/triangle-right.svg) no-repeat left 200px top 0px,
+		url(../img/circle.svg) no-repeat left 230px top 45px,
+		url(../img/cross-right.svg) no-repeat right 76px top 21px,
+		url(../img/circle.svg) no-repeat right 42px top -4px,
+		url(../img/triangle-right.svg) no-repeat right 28px top 27px,
+		url(../img/rhombus-right.svg) no-repeat right -1px top 60px;
+	}
+}
